@@ -1,0 +1,28 @@
+body{ 
+ background: linear-gradient(to bottom right, white, green);
+ min-height: 100%;
+}
+
+.tablebody
+{
+margin: 0 auto;
+
+
+}
+
+.headerbody{
+  font-style: oblique;
+  font-family: Georgia;
+  text-align: center;
+}
+.tabledata{
+
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 10px;
+  border: 2px solid black;
+  border-spacing: 15px;
+  border-collapse: collapse;
+  padding: 25px;
+  text-align: center;
+}

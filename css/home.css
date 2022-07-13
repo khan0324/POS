@@ -1,0 +1,259 @@
+#datepicker ,#datepickerTo,#from,#to,#SearchByName{
+  padding: 5px;
+}
+ 
+.html {
+  background-color: gray;
+}
+.homebody{
+	background-color: #17a2b8;
+}
+
+.homebody .col-md-4{
+  max-width: 32%;
+}
+.Title {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.titleH1{
+  width: 55%;
+  margin: 0 auto;
+  color:white;
+  border-bottom: 3px solid;
+}
+.homebody .bg_color{
+  background: rgba(230, 230, 230, 0.4);
+  padding: 1%;
+  margin: 5px
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+figcaption{
+  text-decoration: underline;
+  color: black;
+}
+
+.chaiH1{
+	color:white;font-family: Georgia, serif;
+	text-decoration: underline; 
+	text-decoration-color: chocolate;
+}
+
+/*invoice.css start */
+
+
+.menuitems{
+  margin-left: 5px
+}
+.table{
+ 
+  table-layout: fixed;
+  margin: 0px auto;
+}
+.grid-container div a figure{
+  margin-bottom: 0px;
+}
+.grid-container a{
+  text-decoration: none;
+}
+
+/*#TotalAmount ,#Balance{
+  color:chocolate;
+  font-size: 20px;
+}*/
+
+.table thead{
+  background-color: #1e4a3e; 
+  color: white;
+}
+
+.table thead .invoicetable th:nth-child(1) {
+   width: 20%;
+}
+.table thead .invoicetable th:nth-child(2) {
+   width: 30%;
+}
+.table thead .invoicetable th:nth-child(3) {
+   width: 15%;
+   letter-spacing: 2px;
+}
+#runningtable{
+  font-size: 18px;
+}
+
+
+
+.menuitems{
+  margin-left: 5px;
+}
+
+#menu .table .returnThead th:nth-child(0) {
+  width: 15%;
+}
+#menu .table .returnThead th:nth-child(1) {
+  width: 15%;
+}
+#menu .table .returnThead th:nth-child(2) {
+  width: 15%;
+}
+#menu .table .returnThead th:nth-child(3) {
+  width: 15%;
+}
+#menu .table .returnThead th:nth-child(4) {
+  width: 15%;
+}
+
+.additem{
+  margin: 20px auto; 
+  margin-bottom: 20px; 
+  width: 95%;
+}
+#OrderProducts{
+  width: 50%;
+  margin-left: 3%;
+  border-radius: 25px;
+}
+#OrderProduct{
+  padding: 5px;
+  height: 35px;
+  margin: 0px auto;
+}
+#OrderProduct option:nth-child(1){
+display: none;
+}
+
+.tableno{
+  padding: 5px;
+  margin: 0px auto;
+}
+.tablenos{ 
+  text-align: center;
+  width: 20%;
+  border-radius: 25px;
+}
+#mytable{
+  margin: 0px auto; 
+  table-layout: fixed; 
+  width: 90%;
+}
+
+.mytablethead{
+  background-color: #134c2c; 
+  color: white;
+  font-size: 16px;
+}
+
+.mytablethead tr th:nth-child(1) {
+  width: 35%;
+  letter-spacing: 2px;
+}
+
+.mytablethead tr th:nth-child(2) {
+  width: 15%;
+}
+
+.mytablethead tr th:nth-child(3) {
+  width: 15%;
+}
+.mytablethead tr th:nth-child(4) {
+  width: 15%;
+}
+.mytablethead tr th:nth-child(5) {
+  width: 15%;
+}
+
+/*#OrderTable{
+  width: 15%;
+  color:white;
+}*/
+
+
+.getGstTable{
+  margin-top: 5px;
+  margin-right: 20px;
+  float: right;
+  max-width: 40%;
+}
+
+.totalMarginBottom{
+  margin-bottom:10px;
+}
+
+
+
+/*add product*/
+.fromwidth{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1.5%;
+}
+
+
+.main_color{
+  color: chocolate;
+}
+.border_color{
+  border-color: chocolate;
+}
+.main_bg_color{
+  background-color: chocolate;
+}
+@media only screen and (max-width:1100px) {
+
+    .returnH6{
+      width: 35%;
+      font-size: 18px;
+      letter-spacing: 2px;
+    } 
+    #ProductTable tr td:nth-child(1) {
+      font-size: 14px;
+    }
+    #ProductTable tr td:nth-child(2) {
+      font-size: 14px;
+    }
+}
+@media only screen and (max-width:900px) {
+    .homebody .col-md-4{
+    max-width: 100%;
+  }
+
+@media only screen and (max-width:800px) {
+  
+  .homebody .bg_color{
+    background: rgba(230, 230, 230, 0.4);
+  }
+
+
+  .menu{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+#ProductTable tr td:nth-child(1) {
+  font-size: 12px;
+}
+#ProductTable tr td:nth-child(2) {
+  font-size: 10px;
+}
+    .titleH1{
+      color:white;
+      border-bottom: 3px solid;
+    }
+    .returnH6{
+      width: 30%;
+      font-size: 18px;
+    }
+} 

@@ -1,0 +1,59 @@
+body{margin:0px;
+	width: 100%;
+	height: 0 auto;
+}
+
+.table1{
+	text-align: center;
+	width: 70%;
+	margin:0 auto;
+	height: 0 auto;
+}
+.table1 .tr th{
+	padding:5px;
+	background-color: #fff;
+	border: 3px;
+}
+
+.table1 .tr .td{
+	font-weight: 500;
+}
+
+.NewTable{
+	text-align: center;
+	margin:0 auto;
+	margin-top: 15px;
+	width: 70%;
+	height: 0 auto;
+	background-color: #fff;
+}
+label{
+	margin-left: 5px;
+}
+
+.invoicefont{
+	margin-left: 10px;
+	color: blue;
+	font-weight:bold;
+	background-color: green;
+}
+
+.container #touchh5{
+	font-size:20px;
+	color:grey;
+	text-align: left;
+	border: 1px;
+}
+#lowFooter{
+	min-height: 50px;
+	float: left;	
+	min-height: 50px;
+}
+.footerwidth{
+	width: 100%;
+	padding: 13px;
+	color: #fff;
+	background-color: #1d1d1d;
+	border-top: 2px dashed #1d1d1d;
+	border-bottom: 2px dashed #1d1d1d;
+}
